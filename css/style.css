@@ -1,0 +1,49 @@
+.search {
+ padding-right:25px;
+ padding-top: 5px;
+}
+
+.contact {
+    padding-top: 5px;
+  padding-right:25px;
+}
+
+
+.fixed-top {
+    background-color: antiquewhite;
+    border-radius: 45px;
+    height: 75px;
+    opacity:1;
+}
+
+.banner {
+    padding-top: 150px;
+    padding-left: 40px;
+}
+.client {
+    height: 350px;
+    background-image: url(../img/client.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.lead {
+    font-size: 25px;
+    color: black;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li img {
+    float:left;
+    padding-right: 7px;
+}
+.footer {
+    padding-top: 50px;
+}
+.mail {
+    height: 38px;
+}
+

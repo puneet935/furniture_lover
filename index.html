@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new website</title>
+    <!-- link with online bootstrap 5 -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- link with css -->
+     <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <!-- navbar start -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container fixed-top mt-3">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" width="65px" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Product
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-disabled="true">About</a>
+        </li>
+        
+      </ul>
+      <form class="d-flex" role="search">
+        <a href="" class="search" data-bs-toggle="modal" data-bs-target="#exampleModal" ><img src="img/search.png" width="28px" alt=""></a>
+        <a href="" class="contact"><img src="img/contact.png" width="25px" alt=""></a>
+        <button class="btn btn-dark rounded-5" type="submit">Buy Now</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- modal Parts -->
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Search Engine</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- banner start -->
+ <div class="card text-bg-dark ">
+  <img src="img/banner.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay banner">
+    <h2 class="card-title ps-5">Furniture Lover </h2>
+    <p class="card-text ps-5">This is a wider card with supporting text below as a natural lead-in to<br> additional content. This content is a little bit longer.</p>
+    <p class="card-text ps-5"><small>Last updated 3 mins ago</small></p>
+    <button class="btn btn-light rounded-end-pill ms-5">Know Our Product</button>
+  </div>
+</div>
+
+
+<!-- our product -->
+<div class="container">
+    <div class="row">
+        <div class="col-6 ">
+            <img src="img/chair1.png"  width="100%" alt="">
+        </div>
+        <div class="col-6 pro2 pt-5 p-5">
+            <h1>Best Product <br>On Budget Price</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, eaque quae quibusdam tenetur distinctio accusantium doloremque perspiciatis dolorem ipsum? Quam explicabo eaque, voluptate beatae laborum temporibus ab! Modi, ducimus nesciunt.</p>
+            <button class="btn btn-dark rounded-5 px-4 mt-3">More...</button>
+        </div>
+    </div>
+    <hr>
+    <div class="row mt-5 mb-5">
+        <div class="col-6  pt-5 p-5">
+            <h1>It is not only Residential<br>but also an Office </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, eaque quae quibusdam tenetur distinctio accusantium doloremque perspiciatis dolorem ipsum? Quam explicabo eaque, voluptate beatae laborum temporibus ab! Modi, ducimus nesciunt.</p>
+            <button class="btn btn-dark rounded-5 px-4 mt-3">More...</button>
+        </div>
+        <div class="col-6 ">
+            <img src="img/chair2.png" width="100%" alt="">
+        </div>        
+    </div>    
+</div>
+
+<!-- customer review -->
+
+<div id="textCarousel" class="carousel slide bg-light py-5 client" data-bs-ride="carousel">
+  <!-- Indicators/Dots (Optional) -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#textCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#textCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#textCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <!-- Carousel Slides -->
+  <div class="carousel-inner container text-center" style="max-width: 600px;">
+    <!-- Slide 1 -->
+    <div class="carousel-item active" data-bs-interval="5000">
+      <h2 class="fw-bold mb-3">Deekap</h2>
+      <p class="lead text-muted">This is a pure text carousel using Bootstrap 5. It scales naturally according to the length of your content.</p>
+
+    </div>
+    
+    <!-- Slide 2 -->
+    <div class="carousel-item" data-bs-interval="5000">
+      <h2 class="fw-bold mb-3">Manoj</h2>
+      <p class="lead text-muted">"Bootstrap makes it incredibly simple to cycle through clean, semantic HTML typography without needing heavy image files."</p>
+      <!-- <span class="d-block fw-semibold text-primary mt-2">- Jane Doe, Developer</span> -->
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item" data-bs-interval="5000">
+      <h2 class="fw-bold mb-3">Vimal</h2>
+      <p class="lead text-muted">Because there are no hardcoded heights or background image tricks, your layout stays perfectly readable across all screen sizes.</p>
+    </div>
+  </div>
+
+  <!-- Navigation Arrows (Optional, Dark variant preferred for light backgrounds) -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon filter-dark" aria-hidden="true" style="filter: invert(1);"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#textCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon filter-dark" aria-hidden="true" style="filter: invert(1);"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- footer strat -->
+ <div class="container mb-3">
+  <div class="row footer">
+    <div class="col-4">
+      <img src="img/logo.png" width="25%" alt=""><br>
+    </div>  
+  </div>
+  <div class="row">
+        <div class="col-4">
+          <h4>Furniture_Lover</h4>
+          <p>New Link Road,<br>
+            charkop, sector 8<br>
+            mumbai - 400067.<br>
+          <img src="img/call.png" width="5%" alt=""> 1234567890</p>
+          
+          <!-- <ul>
+            <li><img src="img/f.png" width="10%" alt=""></li>
+            <li><img src="img/i.png" width="10%" alt=""></li>
+            <li><img src="img/y.png" width="10%" alt=""></li>
+            <li><img src="img/w.png" width="10%" alt=""></li>
+          </ul>   -->
+        </div>
+        <div class="col-2">
+          <h4>
+            Products
+          </h4>
+          <ul>
+            <li>Tables</li>
+            <li>Chair</li>
+            <li>Sofa</li>
+            <li>Bed</li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h4>
+            Our Services
+          </h4>
+          <ul>
+            <li>Home Delivery</li>
+            <li>Repaire</li>
+            <li>Maintain</li>
+            <li>Customer</li>
+          </ul>
+        </div>
+  
+
+
+      <div class="col-3">
+        <h4 class="mb-4">Subscribe</h4>
+        <!-- Replace action with your backend script or form endpoint service -->
+        <div class="row"> 
+          <div class="col-6 ">
+            <input type="text" class="mail"  placeholder="Email Id"  name="" id="">
+          </div>
+          <div class="col-6">
+            <button class="btn btn-dark">Send</button>
+          </div> 
+          <br><br><br>
+           <ul>
+            <li><img src="img/f.png" width="15%" alt=""></li>
+            <li><img src="img/i.png" width="15%" alt=""></li>
+            <li><img src="img/y.png" width="15%" alt=""></li>
+            <li><img src="img/w.png" width="15%" alt=""></li>
+          </ul>  
+        </div>
+      </div>
+  </div>
+  
+</div>
+<hr>
+<div class="container">
+  <div class="row  float-end ">@2026 furniture website</div>
+</div>
+</body>
+</html>
